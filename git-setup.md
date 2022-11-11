@@ -21,6 +21,7 @@ cat id_rsa.pub
 # Now create a repo and copy the cloning url and enter
 git clone git@github.com:gautham-hub001/Java.git
 
+# This is very very important(Going inside the cloned repo)
 cd Java
 
 # Move all the files into the Java folder
@@ -41,7 +42,9 @@ git fetch origin
 
 git add .
 
-git commit -m "my files"
+git commit -m "first"
 
-git remote add origin ssh:git@github.com:gautham-hub001/Java.git
+git push origin
+
+	
 
