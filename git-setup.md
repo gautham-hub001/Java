@@ -30,7 +30,7 @@ cd Java
 git remote -v 
 
 # If not 
-git remote add origin ssh://git@github.com:gautham-hub001/Java.git
+git remote add origin ssh://git@github.com:gautham-hub001/Java.git # This will add the remote to known_hosts file in .ssh folder
 
 git remote -v 
 # output:
