@@ -1,0 +1,1 @@
+The pattern of taking some elements and ignoring some elements is called as subset pattern
