@@ -46,5 +46,23 @@ git commit -m "first"
 
 git push origin
 
-	
+
+
+
+
+
+
+
+## New commands
+# List of all branches (both local and remote):
+git branch -a
+
+# Deletion of branches:
+# Note: You cannot delete a branch you're checkout to.
+# 1. Deleting local branches
+git branch -D master
+
+# 2. Deleting remote branches
+git push origin --delete master
+
 
