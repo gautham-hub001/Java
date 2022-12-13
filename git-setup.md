@@ -32,7 +32,11 @@ git remote -v
 # If not 
 git remote add origin ssh://git@github.com:gautham-hub001/Java.git # This will add the remote to known_hosts file in .ssh folder
 
-git remote -v 
+git remote -v
+
+# If origin is already there and you want to delete it:
+git remote remove origin
+
 # output:
 origin	ssh://git@github.com:gautham-hub001/Java.git (fetch)
 origin	ssh://git@github.com:gautham-hub001/Java.git (push)
