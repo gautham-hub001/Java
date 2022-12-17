@@ -69,4 +69,7 @@ git branch -D master
 # 2. Deleting remote branches
 git push origin --delete master
 
-
+.gitignore
+Note: While pushing code to GitHub, always add .gitignore file. 
+Suppose you're working on python project, search for python gitignore on google and copy paste
+it to your project and push it GitHub.
