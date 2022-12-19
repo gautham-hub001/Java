@@ -32,7 +32,11 @@ git remote -v
 # If not 
 git remote add origin ssh://git@github.com:gautham-hub001/Java.git # This will add the remote to known_hosts file in .ssh folder
 
-git remote -v 
+git remote -v
+
+# If origin is already there and you want to delete it:
+git remote remove origin
+
 # output:
 origin	ssh://git@github.com:gautham-hub001/Java.git (fetch)
 origin	ssh://git@github.com:gautham-hub001/Java.git (push)
@@ -46,5 +50,26 @@ git commit -m "first"
 
 git push origin
 
-	
 
+
+
+
+
+
+
+## New commands
+# List of all branches (both local and remote):
+git branch -a
+
+# Deletion of branches:
+# Note: You cannot delete a branch you're checkout to.
+# 1. Deleting local branches
+git branch -D master
+
+# 2. Deleting remote branches
+git push origin --delete master
+
+.gitignore
+Note: While pushing code to GitHub, always add .gitignore file. 
+Suppose you're working on python project, search for python gitignore on google and copy paste
+it to your project and push it GitHub.
