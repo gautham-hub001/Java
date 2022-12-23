@@ -37,9 +37,9 @@ Types of recurrence relations:
 
 Problems
 
-1. Fibonacci.java
+1. Problems.Fibonacci.java
 
-public class Fibonacci {
+public class Problems.Fibonacci {
     public static void main(String args[]) {
         System.out.println(fib(6));
     }

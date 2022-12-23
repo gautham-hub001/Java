@@ -1,6 +1,9 @@
+package Problems;
+
 import java.util.Scanner;
 import java.util.Arrays;
 
+// https://www.techiedelight.com/find-combinations-of-elements-satisfies-given-constraints/
 public class BackTracking2NArray {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

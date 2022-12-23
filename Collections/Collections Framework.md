@@ -1,3 +1,6 @@
+Array list vs linked list
+https://www.javatpoint.com/difference-between-arraylist-and-linkedlist
+
 ArrayList or LinkedList
 import java.util.List;
 import java.util.ArrayList;

@@ -20,7 +20,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum {
+public class Problems.TwoSum {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6,8,90};
         twoSumUsingLinearSearch(arr, 5);
