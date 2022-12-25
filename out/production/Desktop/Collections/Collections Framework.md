@@ -1,6 +1,9 @@
 Array list vs linked list
 https://www.javatpoint.com/difference-between-arraylist-and-linkedlist
 
+
+Hashing is used in HashMap, HashSet, TreeMap
+
 ArrayList or LinkedList
 import java.util.List;
 import java.util.ArrayList;
