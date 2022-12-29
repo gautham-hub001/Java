@@ -36,9 +36,10 @@ while(it.hasNext()) {
 Stack
 Stack<String> l = new Stack<>();
 
-.push("adgs")
+.push("adgs") or push("A")
 pop()
 peek()
+empty()
 
 
 

@@ -1,3 +1,8 @@
+Hierarchy
+module
+    packages
+        java files
+
 # compile and generate .class file(bytecode). This bytecode can be # run in any device
 
 javac Demo.java
