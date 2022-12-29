@@ -18,7 +18,7 @@ Stack memory initially has main function in it  and on top of it all the functio
 Steps in solving:
 1. Check if the problem can be divided into sub-problems.
 2. Write a recurrence relation if possible.
-3. Draw recurrence tree.
+3. Draw recurrence DataStructures.BinaryTree.
 4. Debug the solution.
 
 Very very very important:
