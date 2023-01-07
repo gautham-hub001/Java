@@ -2,11 +2,11 @@ Arrays class - does not work on ArrayList class
 
 import java.util.Arrays;
 
-int[] nums = {1,2,3,4,5}; 
+int[] nums = {1,2,3,4,5};
 
 int index = Arrays.binarySearch(nums, 4); # nums needs to be sorted. 3 is returned
 
-int[] nums = {2,35,40,1,2,3,4,5}; 
+int[] nums = {2,35,40,1,2,3,4,5};
 Integer[] nums = {2,35,40,1,2,3,4,5}; #works on this too
 
 Arrays.sort(nums);
