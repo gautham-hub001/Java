@@ -2,6 +2,10 @@ package DataStructures;
 
 import java.util.Arrays;
 
+//The steps for implementing Prim's algorithm are as follows:
+//      1.  Initialize the minimum spanning tree with a vertex chosen at random.
+//      2.  Find all the minimum edge connected to the nodes present in the tree so far and add it to the tree
+//      3.  Keep repeating step 2 until all the nodes are added to the tree (number of edges = number of vertices - 1)
 class Prims {
 
     public void Prim(int G[][], int V) {

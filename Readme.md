@@ -1,6 +1,13 @@
 **https://www.programiz.com/dsa/spanning-tree-and-minimum-spanning-tree**
 **https://techiedelight.quora.com/500-Data-Structures-and-Algorithms-interview-questions-and-their-solutions**
 
+**Creating array of objects,** 
+First array should be initialized
+And then, each object should be again initialized:
+LinkedList<Integer>[] adjLists = = new LinkedList[n];
+for (int i = 0; i < n; i++)
+    adjLists[i] = new LinkedList<Integer>();
+
 Hierarchy
 module
     packages
