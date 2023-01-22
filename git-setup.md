@@ -48,7 +48,8 @@ git add .
 
 git commit -m "first"
 
-git push origin
+git push origin main 
+# or git push origin master
 
 
 
