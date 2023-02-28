@@ -110,7 +110,10 @@ byte b=a; // error
 byte b = (int) a; 
 sout(b); //67 bcoz byte can store max value of 256
 
-
+# final keyword
+final variable - to create constant variable
+final method - prevent method overriding
+final class - prevent inheritance
 
 Arrays
 int[] arr = {1,2,3,4};
