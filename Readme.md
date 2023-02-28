@@ -115,6 +115,16 @@ final variable - to create constant variable
 final method - prevent method overriding
 final class - prevent inheritance
 
+As we all know that a final variable cannot be re-assign. But in the case of a reference final variable, 
+the internal state of the object pointed by that reference variable can be changed. Note that this is not re-assigning. \
+This property of final is called non-transitivity
+eg.
+final StringBuilder sb = new StringBuilder("Geeks");
+System.out.println(sb); // Geeks
+sb.append("ForGeeks");
+System.out.println(sb); // GeeksForGeeks
+
+
 Arrays
 int[] arr = {1,2,3,4};
 int[] arr = new int[5];
