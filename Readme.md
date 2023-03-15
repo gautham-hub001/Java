@@ -113,7 +113,10 @@ sout(b); //67 bcoz byte can store max value of 256
 # final keyword
 final variable - to create constant variable
 final method - prevent method overriding
-final class - prevent inheritance
+final class - prevent inheritance, to create immutable class
+
+**Note**: Immutable class example is String class(objects of String are immutable which means a constant and cannot be changed once created.). 
+One can not make a class immutable without making it final.
 
 As we all know that a final variable cannot be re-assign. But in the case of a reference final variable, 
 the internal state of the object pointed by that reference variable can be changed. Note that this is not re-assigning. \
