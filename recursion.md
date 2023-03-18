@@ -55,7 +55,7 @@ public class Problems.Fibonacci {
 2. BinarySearch.java
 
 public class BinarySearch {
-    public static void main(String args[]) {
+   public static void main(String args[]) {
         int[] arr = {1,2,3,45,99,200,1341};
         System.out.println(binarySearch(arr, 1231, 0, 6));
     }
@@ -68,7 +68,7 @@ public class BinarySearch {
         if(arr[mid] == target) {
             return mid; // should be same datatype (int)
         }
-        if(arr[mid] < target) {
+        if(target > arr[mid]) {
             return binarySearch(arr,target, mid+1,r); // should be same datatype (int)
         }
         return binarySearch(arr, target, l, mid-1);
