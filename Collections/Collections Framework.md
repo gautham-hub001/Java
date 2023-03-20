@@ -173,7 +173,7 @@ for(String key: nums.keySet()) {
 	sop(key)
 }
 
-for(String value: nums.values()) {
+for(Integer value: nums.values()) {
 	sop(value)
 }
 

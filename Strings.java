@@ -74,6 +74,7 @@ public class Strings {
         System.out.printf("dafkjaw: %s,  asjnda: %s  %n", "ABC", "DEF");
 
         System.out.println('a' + 'b'); // char sum is ascii. 195 (97 + 98)
+        System.out.println('a'); // a
         System.out.println("a" + "b"); // ab
         System.out.println("a" + 'b'); // if one of them among the + operands is string, the whole thing would be converted to string.
 
@@ -121,6 +122,8 @@ public class Strings {
         // compareTo
         int h = sb.compareTo(new StringBuilder("abc")); // we can only compare to StringBuilder objects
         System.out.println(h); // -1
+        StringBuilder sb2 = sb;
+        System.out.println( sb.compareTo(sb2)); // 0
 
         // delete
         sb.delete(1,4); // deletes characters at index-1,2,3
@@ -170,8 +173,6 @@ public class Strings {
 
         String ss = sb.substring(0,2); // assigned to String object
         System.out.println(ss); // Aa
-
-        System.out.println(sb.equals("AaBCD")); // false
 
         // IMP methods of String class
         String st = "this is chararray";

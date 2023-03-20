@@ -165,6 +165,11 @@ for(int i=0; i < arr.length; i++){
 # printing using toString(). Easiest way to print
 System.out.println(Arrays.toString(arr)); # [1, 2, 3, 4, 5] => String
 
+# Arrays.toString() always prints arrays and it prints them like array only too.
+char[] ch = st.toCharArray();
+System.out.println(ch); // this is chararray -> Normal toString()
+System.out.println(Arrays.toString(ch)); // [t, h, i, s,  , i, s,  , c, h, a, r, a, r, r, a, y] -> Arrays.toString()
+
 
 #printing elements using for each
 for(int num: arr){
