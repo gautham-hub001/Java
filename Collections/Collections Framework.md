@@ -177,4 +177,14 @@ for(Integer value: nums.values()) {
 	sop(value)
 }
 
-
+HashTable also has same methods as HashMap:
+HashTable<Integer, Integer> ht = new HashTable<>();
+ht.put(1,2)
+.putIfAbsent(1,5);
+.remove(1)
+.contains(value)
+.containsKey(key)
+.containsValue(value)
+.entrySet() keySet() values()
+.equals()
+.

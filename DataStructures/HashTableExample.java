@@ -13,7 +13,9 @@ public class HashTableExample {
         ht.put(3, 321);
 
         ht.remove(12);
-
-        System.out.println(ht);
+        for(Map.Entry k: ht.entrySet()) {
+            System.out.println(k.getKey() + " "+k.getValue());
+        }
+//        System.out.println(ht);
     }
 }
