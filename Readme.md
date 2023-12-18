@@ -1,5 +1,44 @@
 **https://www.programiz.com/dsa/spanning-tree-and-minimum-spanning-tree**
 **https://techiedelight.quora.com/500-Data-Structures-and-Algorithms-interview-questions-and-their-solutions**
+**https://www.edureka.co/blog/interview-questions/oops-interview-questions/**
+
+What are the main features of OOPs? - PIDE
+Polymorphism
+Inheritance
+Data Abstraction
+Encapsulation
+
+Polymorphism:
+Polymorphism refers to the ability to exist in multiple forms. Multiple definitions can be given to a single interface. For example, if you have a class named Vehicle, it can have a method named speed but you cannot define it because different vehicles have different speed. This method will be defined in the subclasses with different definitions for different vehicles.
+Types of Polymorphism:
+
+1. Static polymorphism/ static binding/ compile-time polymorphism - is a kind of polymorphism that occurs at compile time. Ex. method overloading.
+2. Dynamic polymorphism/ Dynamic binding/ Runtime polymorphism - is a type of polymorphism which is resolved during runtime. Ex. method overriding.
+
+Inheritance:
+is a feature of OOPs which allows classes inherit common properties from other classes. For example, if there is a class such as ‘vehicle’, other classes like ‘car’, ‘bike’, etc can inherit common properties from the vehicle class.
+Types of Inheritance:
+
+1. Single inheritance
+2. Multiple inheritance
+3. Multilevel inheritance
+4. Hierarchical inheritance
+5. Hybrid inheritance
+
+Data abstraction:
+it allows displaying only the important information and hiding the implementation details. For example, ATM you don’t know how it actually happens.
+
+Types:
+
+1. Abstract class
+2. Abstract method
+
+An abstract class is a class that consists of abstract methods. These methods are basically declared but not defined. If these methods are to be used in some subclass, they need to be exclusively defined in the subclass.
+
+Encapsulation: Data hiding  
+it refers to binding the data and the code that works on that data, together in a single unit.
+Ex. a class.
+Encapsulation also allows data-hiding as the data specified in one class is hidden from other classes.
 
 getters and setters:
 public class Person {
