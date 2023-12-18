@@ -19,7 +19,7 @@ public class DateTime {
         LocalDateTime myObj3 = LocalDateTime.now();
         System.out.println(myObj3); // yyyy-MM-ddTHH:mm:ss.ns -> T is the seperator between date and time
 
-        // DateTimeFormatter *****
+        // DateTimeFormatter ***** It is most used
         DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss:ns");
         String formattedDate = myObj3.format(myFormatObj);
         System.out.println("After formatting: " + formattedDate);
@@ -27,5 +27,15 @@ public class DateTime {
         DateTimeFormatter myFormatObj2 = DateTimeFormatter.ofPattern("MM/dd/yyyy , hh.mm.ss");
         String formattedDate2 = myObj3.format(myFormatObj2);
         System.out.println("After formatting: " + formattedDate2);
+
+        // String to LocalDate
+        String datee = "09-12-2000";
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        LocalDate date = LocalDate.parse(datee, dtf);
+        System.out.println("string to localdate: " + date); // string to localdate: 2000-12-09
+
+        // LocalDate to String
+        String dateagain = date.toString();
+        System.out.println("date to string: " + dateagain); // date to string: 2000-12-09
     }
 }

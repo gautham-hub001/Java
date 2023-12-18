@@ -154,6 +154,8 @@ System.out.println(sb); // Geeks
 sb.append("ForGeeks");
 System.out.println(sb); // GeeksForGeeks
 
+Note: You cannot override static methods too because static methods are statically-bined and method overriding is dynamic
+
 Arrays
 int[] arr = {1,2,3,4};
 int[] arr = new int[5];
